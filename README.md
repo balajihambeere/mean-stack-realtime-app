@@ -10,7 +10,7 @@
 - Modular based Routing
 - Authentication using passport local Strategy
 - Authorization using JWT token
-- Configure bable to complie ES6 code
+- Configure babel to compile ES6 code
 - Automation using grunt, nodemon
 
 
