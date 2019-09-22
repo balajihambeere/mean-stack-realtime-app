@@ -1,5 +1,5 @@
 # mean-stack-realtime-app
-MEAN stack real time application designed and developed using mongodb,express.js, angular, node.js, use this application as a reference when you start a new application or want to improve code quality of your existing application.
+**MEAN** stack real time application designed and developed using **mongodb**,**express.js**, **angular**, **node.js**, use this application as a reference when you start a new application or want to improve code quality of your existing application.
 
 <img src="https://yt3.ggpht.com/a/AGF-l793nM79HE9zfuL0DKN5Gb-MsCM_v3nDt2S1kQ=s900-c-k-c0xffffffff-no-rj-mo" width="350" height="300">
 
