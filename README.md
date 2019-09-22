@@ -59,6 +59,3 @@ cd <project_name>/web
 ng serve
 ```
 
-Finally, navigate to `http://localhost:3000` and you should see the server started locally!
-
-
