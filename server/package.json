@@ -1,0 +1,50 @@
+{
+  "name": "todo-list-api",
+  "version": "1.0.0",
+  "description": "rest api using mongodb, mongoose, expressjs, nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "grunt",
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balajihambeere/todolist.git"
+  },
+  "keywords": [
+    "raptei",
+    "todolist",
+    "application"
+  ],
+  "author": "balaji hambeere rapite.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balajihambeere/todolist/issues"
+  },
+  "homepage": "https://github.com/balajihambeere/todolist#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-response-formatter": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.0.15",
+    "babel-preset-env": "^1.7.0",
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-uglify-es": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^22.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
