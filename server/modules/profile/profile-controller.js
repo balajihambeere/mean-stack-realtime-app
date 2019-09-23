@@ -16,9 +16,9 @@ const getProfileById = async (request, response, next) => {
 };
 
 const updateProfile = async (request, response) => {
-    const { _id, fullName, phone, city, country } = request.body;
+    const { fullName, phone, city, country } = request.body;
     try {
-        const result = await UserModel.findOneAndUpdate({ _id: _id },
+        const result = await UserModel.findOneAndUpdate({ _id: request.params.profileId },
             {
                 '$set': {
                     'profile.fullName': fullName,
